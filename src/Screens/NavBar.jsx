@@ -22,13 +22,13 @@ const Navbar = () => {
                     <a href="" onClick={() => navigate("/services")}>SERVICES</a>
                 </li>
                 <li>
-                    <a href="#contact">PHYSICIANS</a>
+                    <a href="" onClick={() => navigate("/physicians")}>PHYSICIANS</a>
                 </li>
                 <li>
                     <a href="" onClick={() => navigate("/hmos")}>HMOs</a>
                 </li>
                 <li className="contact-btn">
-                    <a href="#contact">CONTACT US</a>
+                    <a href="" onClick={() => navigate("/contact-us")} >CONTACT US</a>
                 </li>
             </ul>
         </nav>
