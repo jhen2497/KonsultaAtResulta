@@ -41,7 +41,6 @@ function HMOs() {
                         <img src={'./../src/assets/generali.png'} alt="hmo" />
                     </div>
                 </div>
-
             </div>
             <Footer />
         </>

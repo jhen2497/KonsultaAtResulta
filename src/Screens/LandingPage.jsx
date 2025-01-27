@@ -6,7 +6,7 @@ import Footer from './Footer';
 function LandingPage() {
     return (
         <div id="landing-page">
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="home">
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>

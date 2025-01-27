@@ -7,7 +7,7 @@ function AboutUs() {
     return (
         <>
             <Navbar />
-            <div id="about-us">
+            <div id="about-us" className="about-us-container">
                 <div className="header-container">
                     <h1 className="heading">
                         About Us
