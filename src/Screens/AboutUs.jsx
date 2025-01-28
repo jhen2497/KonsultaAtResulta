@@ -6,7 +6,7 @@ import Footer from './Footer';
 function AboutUs() {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div id="about-us" className="about-us-container">
                 <div className="header-container">
                     <h1 className="heading">
@@ -27,7 +27,7 @@ function AboutUs() {
                 <div className="about-us">
                     <p style={{ textAlign: "center" }}>With its vasts quality medical services namely specialty consulations, laboratory tests, ECG, XRAY and even General and OB-GYN Diagnostic sonography (ultrasound) at a low, affordable and cost effective package prices. Also, consultants who would wish to be part of the KR team may be given slots to hold clinic during their preferred time.</p>
                 </div>
-                <div className="about-us" style={{ paddingTop: '2rem' }}>
+                <div className="about-us">
                     <div className="about-us-image">
                         <img src={'./../src/assets/about-us-img.png'} alt="aboutusimg" />
                     </div>
@@ -44,7 +44,7 @@ function AboutUs() {
                         <img src={'./../src/assets/aboutus-img-2.png'} alt="aboutusimg" />
                     </div>
                 </div>
-                <div className="about-us">
+                <div className="about-us" style={{ marginTop: 30, marginBottom: 30 }}>
                     <p style={{ textAlign: "center" }}>It also has accreditations in <span className="highlighted-text">more than fifteen HMO's</span> making it one of the most sought after clinic for people who would want comfortability with their treatment with an excellent doctor-patient relationship just like what every patient would wish for as they go for a consult.</p>
                 </div>
             </div >

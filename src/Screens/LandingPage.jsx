@@ -11,7 +11,7 @@ function LandingPage() {
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>
             </div>
-            <div className="about-us">
+            <div className="about-us" style={{ marginTop: 50 }}>
                 <div className="about-us-text">
                     <h3>ABOUT US</h3>
                     <h1>Offering affordable healthcare and flexible options for consultants</h1>
@@ -19,6 +19,27 @@ function LandingPage() {
                 </div>
                 <div className="about-us-image">
                     <img src={'./../src/assets/about-us-img.png'} alt="aboutusimg" />
+                </div>
+            </div>
+            <div class="logo-slider">
+                <div class="logos-wrapper">
+                    <div class="logos">
+                        <img src="../../src/assets/aa-international.png" alt="logo" />
+                        <img src="../../src/assets/asianlife.png" alt="logo" />
+                        <img src="../../src/assets/cocolife.png" alt="logo" />
+                        <img src="../../src/assets/eastwest.png" alt="logo" />
+                        <img src="../../src/assets/avega.png" alt="logo" />
+                        <img src="../../src/assets/intellicare.png" alt="logo" />
+                        <img src="../../src/assets/kaiser.png" alt=" logo" />
+                        <img src="../../src/assets/maxicare.png" alt=" logo" />
+                        <img src="../../src/assets/medicard.png" alt=" logo" />
+                        <img src="../../src/assets/medocare.png" alt=" logo" />
+                        <img src="../../src/assets/hmi.png" alt=" logo" />
+                        <img src="../../src/assets/philcare.png" alt=" logo" />
+                        <img src="../../src/assets/valucare.png" alt=" logo" />
+                        <img src="../../src/assets/medicard.png" alt=" logo" />
+                        <img src="../../src/assets/generali.png" alt=" logo" />
+                    </div>
                 </div>
             </div>
             <div className="services">
