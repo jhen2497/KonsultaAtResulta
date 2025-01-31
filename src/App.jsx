@@ -12,9 +12,9 @@ import Physicians from "./Screens/Physicians.jsx";
 function App() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
-        <Route path='/landing-page' element={<LandingPage />} />
+        <Route path='/' element={<LandingPage />} />
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/services' element={<Services />} />
         <Route path='/hmos' element={<HMOs />} />

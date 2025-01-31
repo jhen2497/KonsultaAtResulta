@@ -6,8 +6,9 @@ import Footer from './Footer';
 function Services() {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div id="services">
+            <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
                 <div className="header-container">
                     <h1 className="heading">
                         Services

@@ -6,8 +6,9 @@ import Navbar from './NavBar';
 function ContactUs() {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div id="contact-us">
+            <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
                 <div className="header-container">
                     <h1 className="heading">
                         Contact Us

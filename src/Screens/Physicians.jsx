@@ -8,6 +8,22 @@ const specialties = [
         title: "PEDIATRICS",
         physicians: [
             {
+                name: "MARITES C. LIMON, MD, DPPS",
+                image: "../../src/assets/physicians-images/marites-limon.png",
+                schedule: [
+                    { days: "Mon-Tue", time: "10:30 AM - 11:30 PM" },
+                    { days: "Thursday", time: "10:30 AM - 11:30 PM" },
+                ],
+            },
+            {
+                name: "APPLE GRACE O TAN. M.D.",
+                image: "../../src/assets/physicians-images/apple-tan.png",
+                schedule: [
+                    { days: "Mon-Tue", time: "10:30 AM - 11:30 PM" },
+                    { days: "Thursday", time: "10:30 AM - 11:30 PM" },
+                ],
+            },
+            {
                 name: "YVONNE N. SENDON-REPOLLO, MD, FPPS, MMHoA",
                 image: "../../src/assets/physicians-images/yvonne-repollo.png",
                 schedule: [
@@ -22,11 +38,10 @@ const specialties = [
                 ],
             },
             {
-                name: "MARITES C. LIMON, MD, DPPS",
-                image: "../../src/assets/physicians-images/marites-limon.png",
+                name: "LILIBETH JANUARY R. GARCIA M.D.",
+                image: "../../src/assets/physicians-images/lilibeth-garcia.png",
                 schedule: [
-                    { days: "Mon-Tue", time: "10:30 AM - 11:30 PM" },
-                    { days: "Thursday", time: "10:30 AM - 11:30 PM" },
+                    { days: "Friday", time: "03:00 PM - 06:00 PM" },
                 ],
             },
         ],
@@ -49,6 +64,13 @@ const specialties = [
                     { days: "Mon - Thu", time: "03:00 PM - 06:00 PM" },
                 ],
             },
+            {
+                name: "WARREN ROGEL DE MESA M.D.",
+                image: "../../src/assets/physicians-images/warren-demesa.png",
+                schedule: [
+                    { days: "By Appoinment" },
+                ],
+            },
         ],
     },
     {
@@ -56,7 +78,7 @@ const specialties = [
         physicians: [
             {
                 name: "ALLEN R. MARQUEZ, MD, FPCP, FPCC",
-                image: "../../src/assets/physicians-images/leonora-bangayan.png",
+                image: "../../src/assets/physicians-images/allen-marquez.png",
                 schedule: [
                     { days: "Wednesday", time: "10:00 AM - 02:00 PM" },
                     { days: "Friday", time: "02:00 PM - 06:00 PM" },
@@ -105,6 +127,15 @@ const specialties = [
         title: "OB-GYNE",
         physicians: [
             {
+                name: "GENIE M. BENITEZ-DE LUMEN, MD, FPOGS",
+                image: "../../src/assets/physicians-images/genie-lumen.png",
+                schedule: [
+                    { days: "Tuesday", time: "01:00 PM - 03:00 PM" },
+                    { days: "Thursday", time: "01:00 PM - 03:00 PM" },
+                    { days: "Saturday", time: "01:00 PM - 03:00 PM" },
+                ],
+            },
+            {
                 name: "MARY ANNE S. DANCEL, MD, FPOGS, MMHoA",
                 image: "../../src/assets/physicians-images/mary-ann-dancel.png",
                 schedule: [
@@ -129,13 +160,45 @@ const specialties = [
                     { days: "Saturday", time: "11:00 AM - 01:00 PM" },
                 ],
             },
+        ],
+    },
+    {
+        title: "OB-SONOLOGIST",
+        physicians: [
             {
-                name: "GENIE M. BENITEZ-DE LUMEN, MD, FPOGS",
-                image: "../../src/assets/physicians-images/genie-lumen.png",
+                name: "BARSABE BERNADO M.D. / OB SONO",
+                image: "../../src/assets/physicians-images/bersabe-bernardo.png",
                 schedule: [
-                    { days: "Tuesday", time: "01:00 PM - 03:00 PM" },
-                    { days: "Thursday", time: "01:00 PM - 03:00 PM" },
-                    { days: "Saturday", time: "01:00 PM - 03:00 PM" },
+                    { days: "Tuesday", time: "04:30 PM - 06:00 PM" },
+                    { days: "Thursday", time: "04:30 PM - 06:00 PM" },
+                    { days: "Friday", time: "04:30 PM - 06:00 PM" },
+                ],
+            },
+            {
+                name: "CATHERINE MAGANTE-ORTANEZ M.D. / OB SONO",
+                image: "../../src/assets/physicians-images/catherine-ortanez.png",
+                schedule: [
+                    { days: "Monday", time: "05:00 AM - ONWARDS" },
+                    { days: "Thursday", time: "04:00 AM - 06:00 AM" },
+                ],
+            },
+        ],
+    },
+    {
+        title: "RADIO-SONOLOGIST",
+        physicians: [
+            {
+                name: "CHRISTINE A. HERNANDEZ M.D.",
+                image: "../../src/assets/physicians-images/christine-hernandez.png",
+                schedule: [
+                    { days: "Thursday", time: "12:00 PM - 03:00 PM" },
+                ],
+            },
+            {
+                name: "DOMINGO NICHOLO H. FERRER M.D.",
+                image: "../../src/assets/physicians-images/domingo-nicholo.png",
+                schedule: [
+                    { days: "Monday", time: "10:00 AM - 12:00 PM" },
                 ],
             },
         ],
@@ -162,6 +225,27 @@ const specialties = [
         ],
     },
     {
+        title: "SURGERY",
+        physicians: [
+            {
+                name: "BRYAN KEITH GENSOLIN M.D.",
+                image: "../../src/assets/physicians-images/bryan-gensolin.png",
+                schedule: [
+                    { days: "By Appointment" },
+                ],
+            },
+            {
+                name: "GENIE BENITEZ-DE LUMEN M.D.",
+                image: "../../src/assets/physicians-images/genie-lumen.png",
+                schedule: [
+                    { days: "Monday", time: "04:00 PM - 06:00 PM" },
+                    { days: "Thursday", time: "04:00 PM - 06:00 PM" },
+                    { days: "Saturday", time: "04:00 PM - 06:00 PM" },
+                ],
+            },
+        ],
+    },
+    {
         title: "UROLOGY",
         physicians: [
             {
@@ -180,7 +264,19 @@ const specialties = [
                 name: "STEPHANIE SY CHUA, MD, FPDS",
                 image: "../../src/assets/physicians-images/stephanie-chua.png",
                 schedule: [
-                    { days: "Saturday", time: "09:00 AM - 11:00 AM" },
+                    { days: "Friday", time: "09:00 AM - 11:00 AM" },
+                ],
+            },
+        ],
+    },
+    {
+        title: "ENT",
+        physicians: [
+            {
+                name: "MANUEL MOISES M.D.",
+                image: "../../src/assets/physicians-images/manuel-moises.png",
+                schedule: [
+                    { days: "Saturday", time: "01:00 PM - 06:00 PM" },
                 ],
             },
         ],
@@ -238,7 +334,7 @@ const specialties = [
     },
 ];
 
-
+const colors = ["#427AA1", "#064789", "#EBF2FA"];
 const ProfileCard = ({ profile }) => (
     <div className="profile-card">
         <img src={profile.image} alt={`${profile.name}`} className="profile-image" />
@@ -246,7 +342,7 @@ const ProfileCard = ({ profile }) => (
         <div className="profile-schedule">
             {profile.schedule.map((slot, index) => (
                 <div key={index} className="schedule-slot">
-                    <span className="days">{slot.days}</span>
+                    <span className="days" style={{backgroundColor: index === 0 && colors[index] || index === 1 && colors[index] || index === 2 && colors[index], color: index === 2 && colors[1]}}>{slot.days}</span>
                     <span className="time">{slot.time}</span>
                 </div>
             ))}
@@ -255,12 +351,14 @@ const ProfileCard = ({ profile }) => (
 );
 
 
+
 function Physicians() {
 
     return (
         <>
             <Navbar />
             <div id="physicians">
+                <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
                 <div className="header-container" style={{ marginBottom: 50 }}>
                     <h1 className="heading">Physicians</h1>
                     <p className="header-description">

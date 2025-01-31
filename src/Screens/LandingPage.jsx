@@ -10,6 +10,7 @@ function LandingPage() {
             <div className="home">
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>
+                <img className="arrow-button-home" src={'./../src/assets/arrow-right-icon.png'} alt="arrow button" />
             </div>
             <div className="about-us" style={{ marginTop: 50 }}>
                 <div className="about-us-text">
@@ -85,8 +86,6 @@ function LandingPage() {
                         <img src={'./../src/assets/internal-medicine-icon.png'} alt="Icon 3" />
                         <p>Internal Medicine</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/ob-gyn-icon.png'} alt="Icon 1" />
                         <p>OB-GYN</p>
@@ -99,8 +98,6 @@ function LandingPage() {
                         <img src={'./../src/assets/radio-sonology-icon.png'} alt="Icon 3" />
                         <p>Radio Sonology</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/surgery-icon.png'} alt="Icon 1" />
                         <p>Surgery</p>
@@ -113,8 +110,6 @@ function LandingPage() {
                         <img src={'./../src/assets/dermatology-icon.png'} alt="Icon 3" />
                         <p>Dermatology</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/ent-icon.png'} alt="Icon 1" />
                         <p>ENT</p>
