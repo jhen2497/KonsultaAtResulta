@@ -18,7 +18,7 @@ function Footer() {
                 <div className="footer-content">
                     <div className='footer-section'>
                         <h2>Visit Us</h2>
-                        <p>2nd Floor Newton Plaza Building, 4408 Old Sta. Mesa Street, <br /> Sta. Mesa, Manila City, 1000, Metro Manila</p>
+                        <p>2nd Floor Newton Plaza Building, 4408 Old Sta. Mesa Street, Sta. Mesa, Manila City, 1000, Metro Manila</p>
                     </div>
                     <div className='footer-section'>
                         <h2>Call Us</h2>

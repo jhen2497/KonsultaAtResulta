@@ -261,7 +261,7 @@ function Physicians() {
         <>
             <Navbar />
             <div id="physicians">
-                <div className="header-container" style={{ marginBottom: 50 }}>
+                <div className="header-container" style={{ marginBottom: 30 }}>
                     <h1 className="heading">Physicians</h1>
                     <p className="header-description">
                         Lorem ipsum dolor sit amet consectetur. Pulvinar tincidunt euismod faucibus nibh a metus vel eu in.

@@ -5,8 +5,8 @@ import Footer from './Footer';
 
 function LandingPage() {
     return (
-        <div id="landing-page">
-            {/* <Navbar /> */}
+        <>
+            <Navbar />
             <div className="home">
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>
@@ -21,7 +21,7 @@ function LandingPage() {
                     <img src={'./../src/assets/about-us-img.png'} alt="aboutusimg" />
                 </div>
             </div>
-            <div class="logo-slider">
+            {/* <div class="logo-slider">
                 <div class="logos-wrapper">
                     <div class="logos">
                         <img src="../../src/assets/aa-international.png" alt="logo" />
@@ -41,7 +41,7 @@ function LandingPage() {
                         <img src="../../src/assets/generali.png" alt=" logo" />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="services">
                 <h3>OUR SERVICES</h3>
                 <h1>Lorem ipsum dolor</h1>
@@ -85,8 +85,6 @@ function LandingPage() {
                         <img src={'./../src/assets/internal-medicine-icon.png'} alt="Icon 3" />
                         <p>Internal Medicine</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/ob-gyn-icon.png'} alt="Icon 1" />
                         <p>OB-GYN</p>
@@ -99,8 +97,6 @@ function LandingPage() {
                         <img src={'./../src/assets/radio-sonology-icon.png'} alt="Icon 3" />
                         <p>Radio Sonology</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/surgery-icon.png'} alt="Icon 1" />
                         <p>Surgery</p>
@@ -113,8 +109,6 @@ function LandingPage() {
                         <img src={'./../src/assets/dermatology-icon.png'} alt="Icon 3" />
                         <p>Dermatology</p>
                     </div>
-                </div>
-                <div className="department-grid">
                     <div className="department-item">
                         <img src={'./../src/assets/ent-icon.png'} alt="Icon 1" />
                         <p>ENT</p>
@@ -122,7 +116,7 @@ function LandingPage() {
                 </div>
             </div>
             <Footer />
-        </div>
+        </>
     )
 }
 
