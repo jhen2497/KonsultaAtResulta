@@ -100,6 +100,22 @@ function AboutUs() {
                             <img src={valucare} alt="logo" />
                             <img src={generali} alt="logo" />
                         </div>
+                        <div class="logos">
+                            <img src={aaInternational} alt="logo" />
+                            <img src={asianlife} alt="logo" />
+                            <img src={cocolife} alt="logo" />
+                            <img src={eastwest} alt="logo" />
+                            <img src={avega} alt="logo" />
+                            <img src={intellicare} alt="logo" />
+                            <img src={kaiser} alt="logo" />
+                            <img src={maxicare} alt="logo" />
+                            <img src={medicard} alt="logo" />
+                            <img src={medocare} alt="logo" />
+                            <img src={hmi} alt="logo" />
+                            <img src={philcare} alt="logo" />
+                            <img src={valucare} alt="logo" />
+                            <img src={generali} alt="logo" />
+                        </div>
                     </div>
                 </div>
                 <div className="logo-container">

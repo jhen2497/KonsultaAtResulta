@@ -1011,23 +1011,23 @@ body {
 }
 
 .logo-slider {
-    overflow-x: hidden;
+    overflow: hidden;
     white-space: nowrap;
     background: white;
     position: relative;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem;
     width: 100vw;
 }
 
 .logos-wrapper {
     display: flex;
-    gap: 50px;
+    width: max-content;
 }
 
 .logos {
     display: flex;
     gap: 30px;
-    animation: scroll 35s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .logos img {
@@ -1037,13 +1037,13 @@ body {
 
 @keyframes scroll {
     from {
-        transform: translateX(80%);
+        transform: translateX(0);
     }
-
     to {
         transform: translateX(-100%);
     }
 }
+
 
 .logos:hover {
     animation-play-state: paused;
