@@ -40,7 +40,7 @@ import generali from '../assets/generali.png';
 function LandingPage() {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="home">
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>
@@ -84,21 +84,21 @@ function LandingPage() {
                         <div className="image-overlay">
                             <img src={servicesImg1} alt="services" />
                             <div className="overlay-text">DIAGNOSITICS</div>
-                            <img className="arrow-button" src={'./../src/assets/arrow-right-icon.png'} alt="arrow button" />
+                            <img className="arrow-button" src={arrorButton} alt="arrow button" />
                         </div>
                     </div>
                     <div className="services-img">
                         <div className="image-overlay">
                             <img src={servicesImg2} alt="services" />
                             <div className="overlay-text">SPECIALTY CONSULTATION</div>
-                            <img className="arrow-button" src={'./../src/assets/arrow-right-icon.png'} alt="arrow button" />
+                            <img className="arrow-button" src={arrorButton} alt="arrow button" />
                         </div>
                     </div>
                     <div className="services-img">
                         <div className="image-overlay">
                             <img src={servicesimg3} alt="services" />
                             <div className="overlay-text">CLINIC SPACES</div>
-                            <img className="arrow-button" src={'./../src/assets/arrow-right-icon.png'} alt="arrow button" />
+                            <img className="arrow-button" src={arrorButton} alt="arrow button" />
                         </div>
                     </div>
                 </div>
