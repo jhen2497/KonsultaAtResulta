@@ -1,17 +1,22 @@
 import React from 'react';
 import '../../src/styles/mainstyle.css';
 
+// assets
+import whiteLogo from '../../src/assets/white-logo.png';
+import fbIcon from '../../src/assets/fb-icon.png';
+import twitterIcon from '../../src/assets/twitter-icon.png';
+
 function Footer() {
     return (
         <div>
             <footer className="footer">
                 <div className="footer-content">
                     <div className="footer-logo">
-                        <img src="../../src/assets/white-logo.png" alt="Logo" className="logo" />
+                        <img src={whiteLogo} alt="Logo" className="logo" />
                     </div>
                     <div className="footer-icons">
-                        <img src="../../src/assets/fb-icon.png" alt="Facebook" className="social-icon" />
-                        <img src="../../src/assets/twitter-icon.png" alt="Twitter" className="social-icon" />
+                        <img src={fbIcon} alt="Facebook" className="social-icon" />
+                        <img src={twitterIcon} alt="Twitter" className="social-icon" />
                     </div>
                 </div>
                 <div className="footer-line"></div>

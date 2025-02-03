@@ -3,12 +3,21 @@ import '../../src/styles/mainstyle.css';
 import Footer from './Footer';
 import Navbar from './NavBar';
 
+// assets
+import radialGradient2 from '../../src/assets/radial-gradient2.png';
+import phoneIcon from '../../src/assets/phone-icon.png';
+import mailIcon from '../../src/assets/mail-icon.png';
+import locationIcon from '../../src/assets/location-icon.png';
+import timeIcon from '../../src/assets/time-icon.png';
+import fbIcon from '../../src/assets/fb-icon.png';
+import xIcon from '../../src/assets/x-icon.png';
+
 function ContactUs() {
     return (
         <>
             {/* <Navbar /> */}
             <div id="contact-us">
-            <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
+            <img className='radial-gradient2' src={radialGradient2} alt="" />
                 <div className="header-container">
                     <h1 className="heading">
                         Contact Us
@@ -20,28 +29,28 @@ function ContactUs() {
                 <div className="contact-container">
                     <div className="contact-info">
                         <div className="info-item">
-                            <img src="../../src/assets/phone-icon.png" alt="Phone" className="icon" />
+                            <img src={phoneIcon} alt="Phone" className="icon" />
                             <p className="font-color">
                                 <strong>Phone</strong><br />
                                 (02) 713 9229 / 0917 510 1525
                             </p>
                         </div>
                         <div className="info-item">
-                            <img src="../../src/assets/mail-icon.png" alt="Email" className="icon" />
+                            <img src={mailIcon} alt="Email" className="icon" />
                             <p className="font-color">
                                 <strong>Email</strong><br />
                                 info@konsultaatresulta.com
                             </p>
                         </div>
                         <div className="info-item">
-                            <img src="../../src/assets/location-icon.png" alt="Address" className="icon" />
+                            <img src={locationIcon} alt="Address" className="icon" />
                             <p className="font-color">
                                 <strong>Address</strong><br />
                                 2nd Floor Newton Plaza, 4408 Old Sta. Mesa, Sta. Mesa
                             </p>
                         </div>
                         <div className="info-item">
-                            <img src="../../src/assets/time-icon.png" alt="Clinic Hours" className="icon" />
+                            <img src={timeIcon} alt="Clinic Hours" className="icon" />
                             <p className="font-color">
                                 <strong>Clinic Hours</strong><br />
                                 7:00 am to 6:00 pm<br />
@@ -51,8 +60,8 @@ function ContactUs() {
                         <hr className="divider" />
                         <div className="social-media">
                             <p className="font-color-1 font-weight-500">Social Media</p>
-                            <img src="../../src/assets/fb-icon-2.png" alt="Facebook" className="social-icon" />
-                            <img src="../../src/assets/x-icon.png" alt="X" className="social-icon" />
+                            <img src={fbIcon} alt="Facebook" className="social-icon" />
+                            <img src={xIcon} alt="X" className="social-icon" />
                         </div>
                     </div>
 

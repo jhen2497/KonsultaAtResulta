@@ -328,8 +328,8 @@ const specialties = [
         title: "OTORHINOLARYNGOLOGY - Head and Neck Surgery",
         physicians: [
             {
-                name: manuelMoises,
-                image: "../../src/assets/physicians-images/manuel-moises.png",
+                name: "MANUEL R. MOISES JR., MD, DPBO-HNS, FPSO-NHS",
+                image: manuelMoises,
                 schedule: [
                     { days: "Wednesday", time: "04:00 PM - 06:00 PM" },
                 ],
@@ -354,7 +354,7 @@ const specialties = [
         physicians: [
             {
                 name: "CHERYL MAY CHING-BLAZA, MD, FPCP, DPCEDM",
-                image: "../../src/assets/physicians-images/cheryl-blaza.png",
+                image: cherylBlaza,
                 schedule: [
                     { days: "Tuesday", time: "10:00 AM - 02:00 PM" },
                 ],
