@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import '../../src/styles/mainstyle.css';
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -18,50 +18,50 @@ const Navbar = () => {
                 </div>
                 <ul className="nav-links">
                     <li>
-                        <a href="" onClick={() => navigate("/")}>HOME</a>
+                        <Link to={"/"}>HOME</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/about-us")}>ABOUT US</a>
+                        <Link to={"/about-us"}>ABOUT US</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/services")}>SERVICES</a>
+                        <Link to={"/services"}>SERVICES</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/physicians")}>PHYSICIANS</a>
+                        <Link to={"/physicians"}>PHYSICIANS</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/hmos")}>HMOs</a>
+                        <Link to={"/hmos"}>HMOs</Link>
                     </li>
                     <li className="contact-btn">
-                        <a href="" onClick={() => navigate("/contact-us")} >CONTACT US</a>
+                        <Link to={"/contact-us"} >CONTACT US</Link>
                     </li>
                 </ul>
                 <button className="dropdown-btn" onClick={isDropdownOpen}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                     </svg>
                 </button>
             </div>
-            
+
             {isDropdown &&
                 <ul className="dropdown-links">
                     <li>
-                        <a href="" onClick={() => navigate("/")}>HOME</a>
+                        <Link href="" to={"/"}>HOME</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/about-us")}>ABOUT US</a>
+                        <Link href="" to={"/about-us"}>ABOUT US</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/services")}>SERVICES</a>
+                        <Link href="" to={"/services"}>SERVICES</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/physicians")}>PHYSICIANS</a>
+                        <Link href="" to={"/physicians"}>PHYSICIANS</Link>
                     </li>
                     <li>
-                        <a href="" onClick={() => navigate("/hmos")}>HMOs</a>
+                        <Link href="" to={"/hmos"}>HMOs</Link>
                     </li>
                     <li className="dropdown-contact-btn">
-                        <a href="" onClick={() => navigate("/contact-us")} >CONTACT US</a>
+                        <Link href="" to={"/contact-us"}>CONTACT US</Link>
                     </li>
                 </ul>
             }
