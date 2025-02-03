@@ -5,8 +5,8 @@ import Footer from './Footer';
 
 function LandingPage() {
     return (
-        <div id="landing-page">
-            {/* <Navbar /> */}
+        <>
+            <Navbar />
             <div className="home">
                 <h3>We take care of</h3>
                 <h1>Your Health!</h1>
@@ -22,7 +22,7 @@ function LandingPage() {
                     <img src={'./../src/assets/about-us-img.png'} alt="aboutusimg" />
                 </div>
             </div>
-            <div class="logo-slider">
+            {/* <div class="logo-slider">
                 <div class="logos-wrapper">
                     <div class="logos">
                         <img src="../../src/assets/aa-international.png" alt="logo" />
@@ -42,7 +42,7 @@ function LandingPage() {
                         <img src="../../src/assets/generali.png" alt=" logo" />
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="services">
                 <h3>OUR SERVICES</h3>
                 <h1>Lorem ipsum dolor</h1>
@@ -117,7 +117,7 @@ function LandingPage() {
                 </div>
             </div>
             <Footer />
-        </div>
+        </>
     )
 }
 

@@ -356,10 +356,10 @@ function Physicians() {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div id="physicians">
                 <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
-                <div className="header-container" style={{ marginBottom: 50 }}>
+                <div className="header-container" style={{ marginBottom: 30 }}>
                     <h1 className="heading">Physicians</h1>
                     <p className="header-description">
                         Lorem ipsum dolor sit amet consectetur. Pulvinar tincidunt euismod faucibus nibh a metus vel eu in.
