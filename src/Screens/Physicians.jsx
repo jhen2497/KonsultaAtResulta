@@ -5,6 +5,7 @@ import Navbar from './NavBar';
 
 import maritesLimon from '../assets/physicians-images/marites-limon.png';
 import appleTan from '../assets/physicians-images/apple-tan.png';
+import cliveOrtanez from '../assets/physicians-images/clive-ortanez.png';
 import yvonneRepollo from '../assets/physicians-images/yvonne-repollo.png';
 import maryPacencia from '../assets/physicians-images/mary-pacencia.png';
 import lilibethGarcia from '../assets/physicians-images/lilibeth-garcia.png';
@@ -20,7 +21,9 @@ import kriseldaTan from '../assets/physicians-images/kriselda-tan.png';
 import genieLumen from '../assets/physicians-images/genie-lumen.png';
 import maryAnnDancel from '../assets/physicians-images/mary-ann-dancel.png';
 import michelleChan from '../assets/physicians-images/michelle-chan.png';
+import mariaPrudente from '../assets/physicians-images/maria-prudente.png';
 import catherineOrtanez from '../assets/physicians-images/catherine-ortanez.png';
+import janiceEsguerra from '../assets/physicians-images/janice-esguerra.png';
 import bersabeBernardo from '../assets/physicians-images/bersabe-bernardo.png';
 import bryanGensolin from '../assets/physicians-images/bryan-gensolin.png';
 import christineHernandez from '../assets/physicians-images/christine-hernandez.png';
@@ -40,8 +43,8 @@ const specialties = [
                 name: "MARITES C. LIMON, MD, DPPS",
                 image: maritesLimon,
                 schedule: [
-                    { days: "Mon-Tue", time: "10:30 AM - 11:30 PM" },
-                    { days: "Thursday", time: "10:30 AM - 11:30 PM" },
+                    { days: "Friday", time: "10:30 AM - 12:00 PM" },
+                    { days: "Saturday", time: "02:30 AM - 05:00 PM" },
                 ],
             },
             {
@@ -90,7 +93,8 @@ const specialties = [
                 name: "RANDY C. LIMON, MD, DPBO",
                 image: randyLimon,
                 schedule: [
-                    { days: "Mon - Thu", time: "03:00 PM - 06:00 PM" },
+                    { days: "Mon - Thurs", time: "03:00 PM - 06:00 PM" },
+                    { days: "Fri - Sat", time: "09:00 PM - 05:00 PM" },
                 ],
             },
             {
@@ -140,7 +144,8 @@ const specialties = [
                 name: "KARPAL SINGH, MD, PAMS",
                 image: karpalSingh,
                 schedule: [
-                    { days: "Thu - Fri", time: "10:00 AM - 02:00 PM" },
+                    { days: "Thursday", time: "10:00 AM - 02:00 PM" },
+                    { days: "Friday", time: "10:00 AM - 02:00 PM" },
                 ],
             },
             {
@@ -148,6 +153,14 @@ const specialties = [
                 image: kriseldaTan,
                 schedule: [
                     { days: "Wednesday", time: "02:00 PM - 05:00 PM" },
+                ],
+            },
+            {
+                name: "JANICE AGUSTIN-ESGUERRA, MD, FPCP, FPRA",
+                image: janiceEsguerra,
+                schedule: [
+                    { days: "Monday", time: "10:00 AM - 05:00 PM" },
+                    { days: "Saturdays", time: "10:00 AM - 05:00 PM" },
                 ],
             },
         ],
@@ -177,8 +190,8 @@ const specialties = [
                 name: "MICHELLE ANTHONETTE R. LIM-CHAN, MD, FPOGS, FPSGE",
                 image: michelleChan,
                 schedule: [
-                    { days: "Monday", time: "09:00 AM - 2:00 PM" },
-                    { days: "Wednesday", time: "09:00 AM - 2:00 PM" },
+                    { days: "Monday", time: "09:00 AM - 12:00 PM" },
+                    { days: "Wednesday", time: "09:00 AM - 12:00 PM" },
                 ],
             },
             {
@@ -220,7 +233,8 @@ const specialties = [
                 name: "CHRISTINE A. HERNANDEZ M.D.",
                 image: christineHernandez,
                 schedule: [
-                    { days: "Thursday", time: "12:00 PM - 03:00 PM" },
+                    { days: "Wednesday", time: "01:00 PM - 04:00 PM" },
+                    { days: "Thursday", time: "01:00 PM - 04:00 PM" },
                 ],
             },
             {
@@ -228,6 +242,13 @@ const specialties = [
                 image: domingoNicholo,
                 schedule: [
                     { days: "Monday", time: "10:00 AM - 12:00 PM" },
+                ],
+            },
+            {
+                name: "MARIA CELINE E. PRUDENTE, M.D., FPCR",
+                image: mariaPrudente,
+                schedule: [
+                    { days: "Tuesday", time: "10:00 AM - 12:00 PM" },
                 ],
             },
         ],
@@ -272,6 +293,13 @@ const specialties = [
                     { days: "Saturday", time: "04:00 PM - 06:00 PM" },
                 ],
             },
+            {
+                name: "CLIVE KEVIN R. ORTANEZ, M.D., FPCS, FPSGS, FSOSP",
+                image: cliveOrtanez,
+                schedule: [
+                    { days: "By Appointment" },
+                ],
+            },
         ],
     },
     {
@@ -293,7 +321,9 @@ const specialties = [
                 name: "STEPHANIE SY CHUA, MD, FPDS",
                 image: stephanieChua,
                 schedule: [
+                    { days: "By Appoinment"},
                     { days: "Friday", time: "09:00 AM - 11:00 AM" },
+                    
                 ],
             },
         ],
@@ -305,8 +335,9 @@ const specialties = [
                 name: "MANUEL MOISES M.D.",
                 image: manuelMoises,
                 schedule: [
-                    { days: "Saturday", time: "01:00 PM - 06:00 PM" },
+                    { days: "Wednesday", time: "01:00 PM - 06:00 PM" },
                 ],
+                
             },
         ],
     },
@@ -347,6 +378,14 @@ const specialties = [
                     { days: "Saturday", time: "10:00 AM - 04:00 PM" },
                 ],
             },
+            {
+                name: "JANICE AGUSTIN-ESGUERRA, MD, FPCP, FPRA",
+                image: janiceEsguerra,
+                schedule: [
+                    { days: "Monday", time: "10:00 AM - 05:00 PM" },
+                    { days: "Saturdays", time: "10:00 AM - 05:00 PM" },
+                ],
+            },
         ],
     },
     {
@@ -372,7 +411,7 @@ const ProfileCard = ({ profile }) => (
             {profile.schedule.map((slot, index) => (
                 <div key={index} className="schedule-slot">
                     <span className="days" style={{backgroundColor: index === 0 && colors[index] || index === 1 && colors[index] || index === 2 && colors[index], color: index === 2 && colors[1]}}>{slot.days}</span>
-                    <span className="time">{slot.time}</span>
+                    {slot.time && <span className="time">{slot.time}</span>}
                 </div>
             ))}
         </div>

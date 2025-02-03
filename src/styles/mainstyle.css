@@ -1027,17 +1027,17 @@ body {
 .logos {
     display: flex;
     gap: 30px;
-    animation: scroll 70s linear infinite;
+    animation: scroll 35s linear infinite;
 }
 
 .logos img {
-    height: 60px;
+    height: 80px;
     object-fit: contain;
 }
 
 @keyframes scroll {
     from {
-        transform: translateX(100%);
+        transform: translateX(80%);
     }
 
     to {
