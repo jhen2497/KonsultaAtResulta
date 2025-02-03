@@ -3,12 +3,37 @@ import '../../src/styles/mainstyle.css';
 import Navbar from './NavBar';
 import Footer from './Footer';
 
+// assets
+import radialGradient2 from '../../src/assets/radial-gradient2.png';
+import aboutUsImg from '../../src/assets/aboutus-img.png';
+import arrowButton from '../../src/assets/arrow-right-icon.png';
+import spouseImage from '../../src/assets/spouse-image.png';
+import abputUsImg2 from '../../src/assets/aboutus-img-2.png';
+import coloredLogo from '../../src/assets/colored-logo.png';
+
+
+// HOMs logo
+import aaInternational from '../assets/aa-international.png';
+import asianlife from '../assets/asianlife.png';
+import cocolife from '../assets/cocolife.png';
+import eastwest from '../assets/eastwest.png';
+import avega from '../assets/avega.png';
+import intellicare from '../assets/intellicare.png';
+import kaiser from '../assets/kaiser.png';
+import maxicare from '../assets/maxicare.png';
+import medicard from '../assets/medicard.png';
+import medocare from '../assets/medocare.png';
+import hmi from '../assets/hmi.png';
+import philcare from '../assets/philcare.png';
+import valucare from '../assets/valucare.png';
+import generali from '../assets/generali.png';
+
 function AboutUs() {
     return (
         <>
             {/* <Navbar /> */}
             <div id="about-us" className="about-us-container">
-                <img className='radial-gradient2' src={'./../src/assets/radial-gradient2.png'} alt="" />
+                <img className='radial-gradient2' src={radialGradient2} alt="" />
                 <div className="header-container">
                     <h1 className="heading">
                         About Us
@@ -21,8 +46,8 @@ function AboutUs() {
                 <div className='about-us-imgcontainer'>
                     <div className="image-overlay-2">
                         <h1 className="overlay-text-2"> <span className="font-weight-300">Our</span> <br />DOCTORS</h1>
-                        <img className="arrow-button-2" src={'./../src/assets/arrow-right-icon.png'} alt="arrow button" />
-                        <img src={'../../src/assets/aboutus-img.png'} alt='about us' />
+                        <img className="arrow-button-2" src={arrowButton} alt="arrow button" />
+                        <img src={aboutUsImg} alt='about us' />
                     </div>
                 </div>
                 <div className="about-us">
@@ -30,7 +55,7 @@ function AboutUs() {
                 </div>
                 <div className="about-us">
                     <div className="about-spouse">
-                        <img src={'./../src/assets/spouse-image.png'} alt="aboutusimg" />
+                        <img src={spouseImage} alt="aboutusimg" />
                         <div className="spouseMaleContainer">
                             <p style={{color: "white"}}>Dr. Randy</p>
                             <h1 id="spouse-male">Limon</h1>
@@ -51,7 +76,7 @@ function AboutUs() {
                         <div className="overlay-text-3">
                             <span className="font-weight-300"> <span className="font-weight-700">Today,</span> the clinic caters <br /> <span className="font-weight-700">seven</span> different <span className="font-weight-700"> fields of  <br />specialty.</span></span>
                         </div>
-                        <img src={'./../src/assets/aboutus-img-2.png'} alt="aboutusimg" />
+                        <img src={abputUsImg2} alt="aboutusimg" />
                     </div>
                 </div>
                 <div className="about-us" style={{ marginTop: 30, marginBottom: 30 }}>
@@ -60,27 +85,26 @@ function AboutUs() {
                 <div class="logo-slider">
                     <div class="logos-wrapper">
                         <div class="logos">
-                            <img src="../../src/assets/aa-international.png" alt="logo" />
-                            <img src="../../src/assets/asianlife.png" alt="logo" />
-                            <img src="../../src/assets/cocolife.png" alt="logo" />
-                            <img src="../../src/assets/eastwest.png" alt="logo" />
-                            <img src="../../src/assets/avega.png" alt="logo" />
-                            <img src="../../src/assets/intellicare.png" alt="logo" />
-                            <img src="../../src/assets/kaiser.png" alt=" logo" />
-                            <img src="../../src/assets/maxicare.png" alt=" logo" />
-                            <img src="../../src/assets/medicard.png" alt=" logo" />
-                            <img src="../../src/assets/medocare.png" alt=" logo" />
-                            <img src="../../src/assets/hmi.png" alt=" logo" />
-                            <img src="../../src/assets/philcare.png" alt=" logo" />
-                            <img src="../../src/assets/valucare.png" alt=" logo" />
-                            <img src="../../src/assets/medicard.png" alt=" logo" />
-                            <img src="../../src/assets/generali.png" alt=" logo" />
+                            <img src={aaInternational} alt="logo" />
+                            <img src={asianlife} alt="logo" />
+                            <img src={cocolife} alt="logo" />
+                            <img src={eastwest} alt="logo" />
+                            <img src={avega} alt="logo" />
+                            <img src={intellicare} alt="logo" />
+                            <img src={kaiser} alt="logo" />
+                            <img src={maxicare} alt="logo" />
+                            <img src={medicard} alt="logo" />
+                            <img src={medocare} alt="logo" />
+                            <img src={hmi} alt="logo" />
+                            <img src={philcare} alt="logo" />
+                            <img src={valucare} alt="logo" />
+                            <img src={generali} alt="logo" />
                         </div>
                     </div>
                 </div>
                 <div className="logo-container">
                     <div className="logo">
-                        <img src={'../../src/assets/colored-logo.png'} alt="KonsultaMD" />
+                        <img src={coloredLogo} alt="KonsultaMD" />
                     </div>
                 </div>
                 

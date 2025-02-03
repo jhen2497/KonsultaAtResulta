@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import '../../src/styles/mainstyle.css';
 import { Link, useNavigate } from "react-router-dom";
 
+// assets
+import coloredLogo from '../../src/assets/colored-logo.png';
+
 const Navbar = () => {
     const navigate = useNavigate();
     const [isDropdown, setIsDropdown] = useState(false);
@@ -14,7 +17,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="logo">
-                    <img src={'../../src/assets/colored-logo.png'} alt="KonsultaMD" />
+                    <img src={coloredLogo} alt="KonsultaMD" />
                 </div>
                 <ul className="nav-links">
                     <li>
