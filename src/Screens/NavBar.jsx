@@ -30,7 +30,7 @@ const Navbar = () => {
                         <Link to={"/physicians"}>PHYSICIANS</Link>
                     </li>
                     <li>
-                        <Link to={() => navigate("/hmos")}>HMOs</Link>
+                        <Link to={"/hmos"}>HMOs</Link>
                     </li>
                     <li className="contact-btn">
                         <Link to={"/contact-us"} >CONTACT US</Link>
@@ -56,7 +56,6 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link href="" to={"/physicians"}>PHYSICIANS</Link>
-                        <a href="" onClick={() => navigate("/physicians")}>PHYSICIANS</a>
                     </li>
                     <li>
                         <Link href="" to={"/hmos"}>HMOs</Link>
