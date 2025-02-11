@@ -65,7 +65,7 @@ function ContactUs() {
                         </div>
                     </div>
 
-                    <div className="contact-form">
+                    {/* <div className="contact-form">
                         <form>
                             <div className="form-row">
                                 <div className="form-group">
@@ -87,7 +87,7 @@ function ContactUs() {
                             </div>
                             <button type="submit" className="submit-button">SUBMIT</button>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="map-container">
                     <iframe
