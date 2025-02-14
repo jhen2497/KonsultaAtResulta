@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../../src/styles/mainstyle.css";
 import Navbar from "./NavBar";
 import Footer from "./Footer";
@@ -37,6 +38,8 @@ import valucare from "../assets/valucare.png";
 import generali from "../assets/generali.png";
 
 function LandingPage() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* <Navbar /> */}
@@ -103,13 +106,17 @@ function LandingPage() {
       </div>
       <div className="services">
         <h3>OUR SERVICES</h3>
-        <h1>Lorem ipsum dolor</h1>
+        <h1 className="services-h1">
+          At our facility, we specialize in offering medical care that is
+          precise, efficient, and patient-centered.
+        </h1>
         <div className="services-column">
           <div className="services-img">
             <div className="image-overlay">
               <img src={servicesImg1} alt="services" />
               <div className="overlay-text">DIAGNOSTIC</div>
               <img
+                onClick={() => navigate("/services/diagnostic")}
                 className="arrow-button"
                 src={arrorButton}
                 alt="arrow button"
@@ -121,6 +128,7 @@ function LandingPage() {
               <img src={servicesImg2} alt="services" />
               <div className="overlay-text">SPECIALTY CONSULTATION</div>
               <img
+                onClick={() => navigate("/physicians")}
                 className="arrow-button"
                 src={arrorButton}
                 alt="arrow button"
@@ -132,6 +140,7 @@ function LandingPage() {
               <img src={servicesimg3} alt="services" />
               <div className="overlay-text">CLINIC SLOTS</div>
               <img
+                onClick={() => navigate("/services/clinic-slots")}
                 className="arrow-button"
                 src={arrorButton}
                 alt="arrow button"
