@@ -1,7 +1,6 @@
 import React from "react";
 import "../../src/styles/mainstyle.css";
 import Footer from "./Footer";
-import Navbar from "./NavBar";
 
 // assets
 import radialGradient2 from "../../src/assets/radial-gradient2.png";
@@ -15,7 +14,6 @@ import xIcon from "../../src/assets/x-icon.png";
 function ContactUs() {
   return (
     <>
-      {/* <Navbar /> */}
       <div id="contact-us">
         <img className="radial-gradient2" src={radialGradient2} alt="" />
         <div className="header-container">

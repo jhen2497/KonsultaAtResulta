@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 // assets
 import radialGradient2 from "../../../src/assets/radial-gradient2.png";
@@ -167,29 +167,6 @@ const diagnosticECG = [
 ];
 
 const DiagnosticPage = () => {
-  const [isShowSubServices, setShowSubServices] = useState(false);
-  const [indexToShow, setIndexToShow] = useState(null);
-
-  const openSubServices = (serviceIndex) => {
-    if (indexToShow === serviceIndex) {
-      setShowSubServices(false);
-      setIndexToShow(null);
-    } else {
-      setShowSubServices(true);
-      setIndexToShow(serviceIndex);
-    }
-  };
-
-  const mouseEnterEventTrigger = (index) => {
-    setShowSubServices(!isShowSubServices);
-    setIndexToShow(index);
-  };
-
-  const mouseLeavedEventTrigger = () => {
-    setShowSubServices(false);
-    setIndexToShow(null);
-  };
-
   return (
     <>
       <div className="about-us-container">
