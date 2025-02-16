@@ -673,6 +673,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -739,6 +740,23 @@ body {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+.clinic-slots-container {
+    margin-top: 100px;
+    margin-inline: 8vw;
+}
+.clinic-slots-text-container {
+    margin-top: 70px;
+    margin-inline: 13vw;
+}
+
+.clinic-slots-header {
+    font-size: 1.8rem !important;
+}
+
+.clinic-slots-benefits {
+    font-size: 1.2rem;
+}
+
 .hmo-container {
     width: 100vw;
     align-items: center;
@@ -752,7 +770,7 @@ body {
 }
 
 .image-grid img {
-    width: 40vh;
+    width: 16vw;
     height: auto;
     object-fit: cover;
 }
@@ -1163,30 +1181,44 @@ body {
     }
 }
 
+@media screen and (max-width: 1070px) {
+    .contact-btn {
+        display: none !important;
+    }
+    .navbar {
+        /* padding: 1rem 1rem; */
+        flex-direction: row;
+    }
+}
+
 @media screen and (max-width: 1030px) {
     .navbar-container {
         position: relative;
+        align-items: center;
         display: flex;
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
     }
+
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
     }
 
     .nav-links {
         justify-content: center;
-        /* flex-direction: column; */
         gap: 0.5rem;
         width: 100%;
-        padding: 1rem 0;
+        /* padding: 1rem 0; */
     }
 
     .nav-links a {
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.3rem;
         width: 100%;
         text-align: center;
+    }
+
+    .dropdown-links {
+        display: none;
     }
 
     .about-us-text {
@@ -1811,6 +1843,12 @@ body {
     .navbar {
         padding: 1rem 1rem;
     }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .container {
         display: flex;
         flex-direction: row;

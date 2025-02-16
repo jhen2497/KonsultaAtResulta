@@ -1,7 +1,5 @@
 import React from "react";
 import "../../src/styles/mainstyle.css";
-import Navbar from "./NavBar";
-import Footer from "./Footer";
 
 // assets
 import radialGradient2 from "../../src/assets/radial-gradient2.png";
@@ -177,7 +175,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

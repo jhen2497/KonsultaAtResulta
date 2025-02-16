@@ -1,6 +1,5 @@
 import React from "react";
 import "../../src/styles/mainstyle.css";
-import Footer from "./Footer";
 
 // assets
 import radialGradient2 from "../../src/assets/radial-gradient2.png";
@@ -105,7 +104,6 @@ function ContactUs() {
           ></iframe>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

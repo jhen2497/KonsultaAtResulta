@@ -1,8 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../../src/styles/mainstyle.css";
-import Navbar from "./NavBar";
-import Footer from "./Footer";
 
 // images
 import arrorButton from "../../src/assets/arrow-right-icon.png";
@@ -42,7 +40,6 @@ function LandingPage() {
 
   return (
     <>
-      {/* <Navbar /> */}
       <div className="home">
         <h3>We take care of</h3>
         <h1>Your Health!</h1>
@@ -195,7 +192,6 @@ function LandingPage() {
           </div>
         </div>
       </div> */}
-      <Footer />
     </>
   );
 }
