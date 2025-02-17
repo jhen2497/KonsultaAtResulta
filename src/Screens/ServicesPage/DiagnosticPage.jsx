@@ -19,7 +19,7 @@ const DiagnosticPage = () => {
             results that support effective medical decision-making. By
             leveraging advanced technology and accurate testing methods, we help
             in detecting, monitoring, and preventing a wide range of health
-            conditions.
+            conditions
           </p>
         </div>
 
