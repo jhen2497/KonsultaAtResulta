@@ -28,7 +28,6 @@ import generali from "../assets/generali.png";
 function AboutUs() {
   return (
     <>
-      {/* <Navbar /> */}
       <div id="about-us" className="about-us-container">
         <img className="radial-gradient2" src={radialGradient2} alt="" />
         <div className="header-container">

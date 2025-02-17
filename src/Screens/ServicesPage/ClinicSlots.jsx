@@ -7,12 +7,10 @@ import clinicStackImages from "../../assets/services-iamges/clinic-slots.jpg";
 const ClinicSlots = () => {
   return (
     <>
-      <div id="contact-us">
+      <div id="about-us" className="about-us-container">
         <img className="radial-gradient2" src={radialGradient2} alt="" />
         <div className="header-container">
-          <h1 className="heading" style={{ fontSize: "4rem" }}>
-            Clinic Slots
-          </h1>
+          <h1 className="heading">Clinic Slots</h1>
           <p className="header-description">
             Our Clinic Slot service provides healthcare professionals with a
             fully equipped and well-maintained environment to deliver
@@ -21,7 +19,7 @@ const ClinicSlots = () => {
             for convenience and efficiency
           </p>
         </div>
-        <div className="about-us-imgcontainer clinic-slots-container ">
+        <div className="about-us-imgcontainer">
           <img
             src={clinicStackImages}
             alt="xrayStackImages"

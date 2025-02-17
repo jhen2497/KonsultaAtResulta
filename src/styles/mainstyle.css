@@ -740,10 +740,6 @@ body {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.clinic-slots-container {
-    margin-top: 100px;
-    margin-inline: 8vw;
-}
 .clinic-slots-text-container {
     margin-top: 70px;
     margin-inline: 13vw;
@@ -1890,6 +1886,15 @@ body {
         font-size: 1rem;
         font-weight: 700;
     }
+
+    .clinic-slots-header {
+        font-size: 1.5rem !important;
+    }
+    
+    .clinic-slots-benefits {
+        font-size: 1rem;
+    }
+    
 }
 
 
