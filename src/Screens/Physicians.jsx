@@ -5,7 +5,7 @@ import "../../src/styles/mainstyle.css";
 import { specialties } from "../data/specialties";
 
 // conponent
-import ProfileCard from "../components/Profilecard";
+import ProfileCard from "../components/ProfileCard";
 
 import radialGradient2 from "../assets/radial-gradient2.png";
 
