@@ -17,9 +17,13 @@ function Services() {
         <div className="header-container">
           <h1 className="heading">Services</h1>
           <p className="header-description">
-            Lorem ipsum dolor sit amet consectetur. Pulvinar tincidunt euismod
-            faucibus nibh a metus vel eu in. Est fermentum gravida malesuada
-            posuere egestas cursus arcu pellentesque.
+            At <span className="highlighted-text">Konsulta @ Resulta</span>{" "}
+            Medical Clinic & Laboratory, we provide high-quality healthcare
+            services to meet our patients' needs. Our services include medical
+            consultations and advanced diagnostic procedures to ensure accurate
+            diagnoses and effective treatments. With experienced doctors and
+            modern facilities, we offer accessible, affordable, and
+            patient-focused care.”
           </p>
         </div>
 
