@@ -13,7 +13,7 @@ import xIcon from "../../src/assets/x-icon.png";
 function ContactUs() {
   return (
     <>
-      <div id="contact-us">
+      <div id="contact-us" style={{ position: "relative", overflow: "hidden" }}>
         <img className="radial-gradient2" src={radialGradient2} alt="" />
         <div className="header-container">
           <h1 className="heading">Contact Us</h1>
