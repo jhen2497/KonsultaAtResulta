@@ -250,7 +250,7 @@ body {
     color: #003367;
     font-weight: 800;
     flex: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .header-description {
@@ -940,7 +940,7 @@ body {
 
 .contact-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: flex-start;
     padding: 5rem 10rem 5rem 10rem;
     border-radius: 8px;
@@ -1040,7 +1040,7 @@ body {
 }
 
 .map-container {
-    /* width: 100%; */
+    width: 100%;
     max-width: 1600px;
     margin: 0 10% 5rem 10%;
     border-radius: 35px;

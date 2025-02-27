@@ -26,9 +26,9 @@ function HMOs() {
         <div className="header-container">
           <h1 className="heading">HMOs</h1>
           <p className="header-description">
-            Lorem ipsum dolor sit amet consectetur. Pulvinar tincidunt euismod
-            faucibus nibh a metus vel eu in. Est fermentum gravida malesuada
-            posuere egestas cursus arcu pellentesque.
+            HMOs offer affordable and structured healthcare solutions, making
+            them a popular choice for individuals and families looking for
+            comprehensive medical coverage.
           </p>
         </div>
         <div className="hmo-container">

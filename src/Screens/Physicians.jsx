@@ -18,10 +18,15 @@ function Physicians() {
         <div className="header-container" style={{ marginBottom: 30 }}>
           <h1 className="heading">Physicians</h1>
           <p className="header-description">
-            Our physicians provide expert medical care tailored to your health
+            Our Specialty Consultation services link you with expert healthcare
+            professionals from a range of medical fields. Whether you're seeking
+            a second opinion, an in-depth diagnosis, or a customized treatment
+            plan, our specialists offer thorough and compassionate care designed
+            to meet your individual needs.
+            {/* Our physicians provide expert medical care tailored to your health
             needs. Whether you need a routine check-up, chronic disease
             management, or specialized treatment, our dedicated doctors ensure
-            compassionate and effective care.
+            compassionate and effective care. */}
           </p>
         </div>
         {specialties.map((specialty, index) => (

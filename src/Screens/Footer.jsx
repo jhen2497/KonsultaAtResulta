@@ -15,8 +15,12 @@ function Footer() {
             <img src={whiteLogo} alt="Logo" className="logo" />
           </div>
           <div className="footer-icons">
-            <img src={fbIcon} alt="Facebook" className="social-icon" />
-            <img src={twitterIcon} alt="Twitter" className="social-icon" />
+            <a href="https://www.facebook.com/konsultaatresulta">
+              <img src={fbIcon} alt="Facebook" className="social-icon" />
+            </a>
+            <a href="https://twitter.com/KonsultaResulta">
+              <img src={twitterIcon} alt="Twitter" className="social-icon" />
+            </a>
           </div>
         </div>
         <div className="footer-line"></div>
