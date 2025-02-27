@@ -210,8 +210,29 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 10rem 5rem 5rem;
+    padding: 3rem 5rem 3rem 5rem;
     background-color: #ffffff;
+}
+
+.about-us-1 {
+    flex-direction: column;
+    padding: 0px 1rem;
+}
+
+.about-us-part-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-part-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    padding: 0px 6rem;
+}
+.about-us-part-1 {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-container {
@@ -340,6 +361,7 @@ body {
 }
 
 .about-us-text {
+    /* display: flex; */
     max-width: 50%;
 }
 
@@ -742,7 +764,7 @@ body {
 
 .clinic-slots-text-container {
     margin-top: 70px;
-    margin-inline: 13vw;
+    margin-inline: 7vw;
 }
 
 .clinic-slots-header {
@@ -1165,7 +1187,7 @@ body {
     .spouseFemaleContainer {
         position: absolute;
         bottom: 5rem;
-        right: 6rem;
+        right: 3rem;
     }
     .spouses-text {
         font-size: 1.2em !important;
@@ -1184,6 +1206,16 @@ body {
     .navbar {
         /* padding: 1rem 1rem; */
         flex-direction: row;
+    }
+    .spouseMaleContainer {
+        position: absolute;
+        bottom: 5rem;
+        left: 40px;
+    }
+    .spouseFemaleContainer {
+        position: absolute;
+        bottom: 5rem;
+        right: 2rem;
     }
 }
 
@@ -1221,6 +1253,10 @@ body {
         max-width: 100vw;
         padding: 0rem 1rem 2rem 1rem;
     }
+    .about-us-text-part-1 {
+        max-width: 100vw;
+        padding: 0rem 1rem 2rem 1rem;
+    }
 
     .about-us-image {
         max-width: 100%;
@@ -1232,6 +1268,17 @@ body {
     .spouses-text {
         left: 0;
         font-size: 2em !important;
+    }
+
+    .spouseMaleContainer {
+        position: absolute;
+        bottom: 8rem;
+        left: 40px;
+    }
+    .spouseFemaleContainer {
+        position: absolute;
+        bottom: 8rem;
+        right: 4rem;
     }
 
     .overlay-text-3 {
@@ -1290,6 +1337,13 @@ body {
         display: block;
         padding: 0rem;
         background-color: #ffffff;
+    }
+
+    .about-us-part-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        padding: 0px 1rem;
     }
 
     .header-container {
@@ -1894,6 +1948,12 @@ body {
     .clinic-slots-benefits {
         font-size: 1rem;
     }
+    .about-us-part-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        padding: 0px 1rem;
+    }
     
 }
 
@@ -2065,6 +2125,10 @@ body {
     .about-us-text {
         max-width: 100%;
         padding: 0rem 1rem 1rem 1rem;
+    }
+    .about-us-text-part-1 {
+        max-width: 100vw;
+        padding: 0rem 1rem 2rem 1rem;
     }
 
     .about-us-image {
@@ -2735,5 +2799,16 @@ body {
     .services-item {
         text-align: center;
         min-width: 100px;
+    }
+
+    .spouseMaleContainer {
+        position: absolute;
+        bottom: 5rem;
+        left: 20px;
+    }
+    .spouseFemaleContainer {
+        position: absolute;
+        bottom: 5rem;
+        right: 1rem;
     }
 }

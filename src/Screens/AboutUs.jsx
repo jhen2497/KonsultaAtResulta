@@ -33,12 +33,13 @@ function AboutUs() {
         <div className="header-container">
           <h1 className="heading">About Us</h1>
           <p className="header-description">
-            Looking for a multispecialty clinic right in the heart of Stop and
-            Shop along Sta. Mesa area, one can surely not miss
+            If you're looking for a multispecialty clinic in the heart of Stop
+            and Shop along the Sta. Mesa area,{" "}
             <span className="highlighted-text">
               {" "}
-              Konsulta @ Resulta Medical Clinic & Laboratory.
-            </span>
+              Konsulta @ Resulta Medical Clinic & Laboratory
+            </span>{" "}
+            is a destination you can't miss.
           </p>
         </div>
         <div className="about-us-imgcontainer">
@@ -58,50 +59,71 @@ function AboutUs() {
         </div>
         <div className="about-us">
           <p style={{ textAlign: "justify" }}>
-            With its vasts quality medical services namely specialty
-            consulations, laboratory tests, ECG, XRAY and even General and
-            OB-GYN Diagnostic sonography (ultrasound) at a low, affordable and
-            cost effective package prices. Also, consultants who would wish to
-            be part of the KR team may be given slots to hold clinic during
-            their preferred time.
+            Offering a wide range of quality medical services, including
+            specialty consultations, laboratory tests, 2D Echo, ECG, X-ray, and
+            General and OB-GYN diagnostic sonography (ultrasound),{" "}
+            <span className="highlighted-text">
+              Konsulta @ Resulta Medical Clinic & Laboratory
+            </span>{" "}
+            provides affordable and cost-effective packages. Additionally,
+            consultants interested in joining the KR team have the opportunity
+            to secure clinic slots at their preferred schedules.
           </p>
         </div>
-        <div className="about-us">
-          <div className="about-spouse">
-            <img src={spouseImage} alt="aboutusimg" />
-            <div className="spouseMaleContainer">
-              <p style={{ color: "white" }}>Dr. Randy</p>
-              <h1 id="spouse-male">Limon</h1>
+        <div className="about-us about-us-1">
+          <div className="about-us about-us-part-1">
+            <div className="about-us">
+              <div className="about-spouse">
+                <img src={spouseImage} alt="aboutusimg" />
+                <div className="spouseMaleContainer">
+                  <p style={{ color: "white" }}>Dr. Randy</p>
+                  <h1 id="spouse-male">Limon</h1>
+                </div>
+                <div className="spouseFemaleContainer">
+                  <p style={{ color: "white" }}>Dr. Marites</p>
+                  <h1 id="spouse-female">Cong-Limon</h1>
+                </div>
+                <p className="spouses-text">SPOUSES</p>
+              </div>
+              <div className="about-us-text about-us-part-1">
+                <p>
+                  In early <span className="highlighted-text">2008</span>,
+                  spouses{" "}
+                  <span className="highlighted-text">Dr. Randy Limon </span>
+                  and{" "}
+                  <span className="highlighted-text">
+                    Dr. Marites Cong-Limon
+                  </span>{" "}
+                  envisioned establishing their own clinic without the burden of
+                  high-premium hospital clinic fees. These expenses often placed
+                  a significant financial strain on them, as well as on their
+                  parents, who had to make sacrifices just to cover the
+                  necessary costs.
+                </p>
+              </div>
             </div>
-            <div className="spouseFemaleContainer">
-              <p style={{ color: "white" }}>Dr. Marites</p>
-              <h1 id="spouse-female">Cong-Limon</h1>
+
+            <div className="about-us-part-2">
+              <p>
+                Understanding that many of their colleagues faced similar
+                challenges in starting their medical careers, the couple sought
+                to create a more sustainable and accessible alternative. This
+                led them to establish a self-sustaining clinic model that
+                eliminated the need for investment stock or Right to Practice
+                (RTP) fees, thereby easing the financial burden not only for
+                themselves but also for other aspiring doctors. Their initiative
+                aimed to provide an opportunity for early-career medical
+                professionals to begin their practice without the constraints
+                typically associated with hospital-based clinics.
+              </p>
+              <p style={{ marginTop: "3rem" }}>
+                With this vision in mind, Konsulta @ Resulta was born—a
+                pioneering clinic designed to serve as a launching pad for new
+                doctors, enabling them to showcase their specialties and build
+                their careers in a more financially manageable and independent
+                manner.
+              </p>
             </div>
-            <p className="spouses-text">SPOUSES</p>
-          </div>
-          <div className="about-us-text">
-            <p>
-              It was during early <span className="highlighted-text">2008</span>{" "}
-              <span className="highlighted-text">
-                when spouses Dr. Randy Limon
-              </span>{" "}
-              and{" "}
-              <span className="highlighted-text">Dr. Marites Cong-Limon</span>{" "}
-              thought of putting up a clinic for themselves without the need of
-              high premium access to hospital clinics. Such budget may most of
-              the time be a burden to them especially to their parents who will
-              have to sacrifice just to produce the needed amount.
-            </p>
-            <p>
-              Responding to similar concerns from colleagues, the couple created
-              a self-sustaining clinic that eliminated the need for investment
-              stock or RTP (Right to Practice) fees, easing the financial burden
-              of the couple as well as other doctors starting their careers.
-              Hence, the birth{" "}
-              <span className="highlighted-text">Konsulta @ Resulta</span> . A
-              starting clinic for beginning doctors who want to showcase their
-              practice of their respective specialties.
-            </p>
           </div>
         </div>
         <div className="about-us-image-2">
@@ -124,12 +146,13 @@ function AboutUs() {
         </div>
         <div className="about-us" style={{ marginTop: 30, marginBottom: 30 }}>
           <p style={{ textAlign: "left" }}>
-            It also has accreditations in{" "}
-            <span className="highlighted-text">more than fifteen HMO's</span>{" "}
-            making it one of the most sought after clinic for people who would
-            want comfortability with their treatment with an excellent
-            doctor-patient relationship just like what every patient would wish
-            for as they go for a consult.
+            Accredited by{" "}
+            <span className="highlighted-text">over fifteen HMOs</span>,
+            Konsulta @ Resulta Medical Clinic & Laboratory is a trusted choice
+            for patients seeking quality healthcare. It provides a comfortable
+            treatment experience while promoting a strong doctor-patient
+            relationship, ensuring that every patient receives the attentive and
+            compassionate care they deserve.
           </p>
         </div>
         <div className="logo-slider">

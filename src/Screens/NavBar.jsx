@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
 
       {isDropdown && (
-        <ul className="dropdown-links">
+        <ul onClick={isDropdownOpen} className="dropdown-links">
           <li>
             <Link href="" to={"/"}>
               HOME
