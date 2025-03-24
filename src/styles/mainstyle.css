@@ -90,8 +90,120 @@ p {
     top: -400px;
 }
 
+.pricing {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    width: 100%;
+    padding: 5rem;
+}
+.price-list-header {
+    font-size: 4rem;
+}
+.category-heading {
+    font-size: 1.6rem;
+    padding: 1rem;
+    margin: 8px 0px;
+    box-shadow: 1px 1px 5px #0000003d;
+    border-radius: 0.8rem;
+    width: fit-content;
+}
+.tag {
+    font-size: 1.3rem;
+}
+.services-prices {
+    max-height: 500px;
+    overflow-y: auto;
+    display: block;
+    width: 100%;
+}
+
+.services-prices tbody {
+    display: block;
+    width: 100%;
+}
+
+.services-prices tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-scroll {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.services-prices::-webkit-scrollbar {
+    width: 6px;
+}
+
+.services-prices::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.services-prices::-webkit-scrollbar-thumb {
+    background: #064789;
+    border-radius: 10px;
+}
+
+.services-prices::-webkit-scrollbar-thumb:hover {
+    background: #759cc3;
+}
+
+.item-price {
+    border: 1px solid #000000;
+}
+.item-price:hover {
+    background-color: rgba(171, 176, 181, 0.297);
+}
+.table-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.table-container table {
+    width: 100%;
+    height: max-content;
+}
+
+.table-container th, 
+.table-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.pricing-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+  
+.pricing-table thead {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+  
+.pricing-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.pricing-table tbody tr:nth-child(even):hover {
+    background-color: rgba(171, 176, 181, 0.297);
+}
+  
+
 /* Navbar Styles */
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

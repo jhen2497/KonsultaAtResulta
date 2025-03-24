@@ -7,6 +7,7 @@ import LandingPage from "./Screens/LandingPage.jsx";
 import AboutUs from "./Screens/AboutUs.jsx";
 import Services from "./Screens/Services.jsx";
 import HMOs from "./Screens/HMOs.jsx";
+import Pricing from "./Screens/ServicesPage/Pricing.jsx";
 import ContactUs from "./Screens/ContactUs.jsx";
 import Physicians from "./Screens/Physicians.jsx";
 import DiagnosticPage from "./Screens/ServicesPage/DiagnosticPage.jsx";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/hmos" element={<HMOs />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/physicians" element={<Physicians />} />
         <Route path="/contact-us" element={<ContactUs />} />
 

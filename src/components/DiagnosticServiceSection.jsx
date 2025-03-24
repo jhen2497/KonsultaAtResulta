@@ -5,7 +5,7 @@ const DiagnosticServiceSection = ({ title, image, description, services }) => (
     <img
       src={image}
       alt={title}
-      style={{ maxHeight: "300px", maxWidth: "700px", borderRadius: "16px" }}
+      style={{ maxHeight: "230px", maxWidth: "700px", borderRadius: "16px" }}
     />
     <h1 className="services-text font-color-1">{title}</h1>
     <p className="font-color-1">{description}</p>

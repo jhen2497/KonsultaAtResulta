@@ -35,6 +35,9 @@ const Navbar = () => {
           <li>
             <Link to={"/hmos"}>HMOs</Link>
           </li>
+          <li>
+            <Link to={"/pricing"}>PRICING</Link>
+          </li>
           <li className="contact-btn">
             <Link to={"/contact-us"}>CONTACT US</Link>
           </li>
@@ -81,6 +84,11 @@ const Navbar = () => {
           <li>
             <Link href="" to={"/hmos"}>
               HMOs
+            </Link>
+          </li>
+          <li>
+            <Link href="" to={"/pricing"}>
+              PRICING
             </Link>
           </li>
           <li className="dropdown-contact-btn">

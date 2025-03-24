@@ -5,6 +5,7 @@ import xrayStackImages from "../assets/services-iamges/x-ray-services.jpg";
 import labStackImages from "../assets/services-iamges/lab-services.jpg";
 import ultraSoundStackImages from "../assets/services-iamges/ultrasound-services.jpg";
 import ecgStackImages from "../assets/services-iamges/ecg-services.jpg";
+import echo2D from "../assets/services-iamges/2DEcho.jpg";
 
 export const diagnosticServices = [
   {
@@ -90,5 +91,13 @@ export const diagnosticServices = [
     description:
       "Our ECG services offer accurate and reliable heart assessments using advanced echocardiography. Conducted by expert cardiologists, we ensure precise diagnostics for heart health and early detection of cardiovascular conditions.",
     services: [{ serviceName: "Standard 12 lead chest ECG", serviceScope: [] }],
+  },
+  {
+    id: "echo",
+    title: "2D Echo (2D Echocardiogram)",
+    image: echo2D,
+    description:
+      "A 2D echo, or 2D echocardiogram, is an ultrasound that uses sound waves to create images of the heart. It's a non-invasive procedure that allows doctors to see the heart's structure and function",
+    services: [],
   },
 ];
