@@ -5,10 +5,7 @@ const Pricing = () => {
   return (
     <div className="pricing">
       <h1 className="price-list-header font-color-2">Price List</h1>
-      <p className="font-color-2">
-        Our pricing plans are designed to meet the needs of all users.
-      </p>
-      <p className="font-color-2 tag">We can give discounts upto 50%.</p>
+      <p className="font-color-2 tag">Discounts available up to <span className="highlighted-text">50%</span> off on select services.</p>
       <div className="table-container">
         {prices.map((item, index) => (
           <table key={index} className="pricing-table">
@@ -22,7 +19,9 @@ const Pricing = () => {
                 {item.services.map((service, innerIDX) => (
                   <tr key={innerIDX} className="item-price font-color-2">
                     <td>{service.name}</td>
-                    <td>₱{service.price}</td>
+                    <td className="price-column">
+                      <div className="price-content">₱{service.price}</div>
+                    </td>
                   </tr>
                 ))}
               </tbody>

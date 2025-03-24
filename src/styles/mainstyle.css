@@ -93,9 +93,6 @@ p {
 .pricing {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-
     width: 100%;
     padding: 5rem;
 }
@@ -106,18 +103,22 @@ p {
     font-size: 1.6rem;
     padding: 1rem;
     margin: 8px 0px;
+    background-color: white;
     box-shadow: 1px 1px 5px #0000003d;
     border-radius: 0.8rem;
     width: fit-content;
 }
 .tag {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .services-prices {
     max-height: 500px;
     overflow-y: auto;
     display: block;
     width: 100%;
+    background-color: white;
+    border: 0.03rem solid rgba(50, 48, 48, 0.253);
+    border-radius: 8px;
 }
 
 .services-prices tbody {
@@ -159,6 +160,15 @@ p {
 }
 .item-price:hover {
     background-color: rgba(171, 176, 181, 0.297);
+}
+.price-column {
+    width: 180px;
+}
+.price-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .table-container {
     display: grid;
@@ -2066,7 +2076,12 @@ body {
         width: 100% !important;
         padding: 0px 1rem;
     }
-    
+    .pricing {
+        padding: 3rem;
+    }
+    .table-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
@@ -2133,6 +2148,22 @@ body {
     }
 
     .services-diag-item h3 {
+        font-size: 0.8rem;
+    }
+    .pricing {
+        padding: 1rem;
+        margin-top: 20px;
+    }
+    .price-list-header {
+        font-size: 1.8rem;
+    }
+    .tag {
+        font-size: 1rem;
+    }
+    .category-heading {
+        font-size: 0.8rem;
+    }
+    .item-price {
         font-size: 0.8rem;
     }
 }
