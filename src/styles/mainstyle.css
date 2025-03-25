@@ -91,25 +91,63 @@ p {
 }
 
 .pricing {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 5rem;
+    overflow: hidden;
 }
 .price-list-header {
     font-size: 4rem;
+    z-index: 100;
 }
 .category-heading {
     font-size: 1.6rem;
     padding: 1rem;
-    margin: 8px 0px;
+    /* margin: 8px 0px; */
     background-color: white;
-    box-shadow: 1px 1px 5px #0000003d;
-    border-radius: 0.8rem;
-    width: fit-content;
+    /* box-shadow: 1px 1px 5px #0000003d; */
+    border: 0.8px solid rgba(112, 128, 144, 0.456);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    width: 100%;
+    z-index: 100;
 }
 .tag {
     font-size: 1.6rem;
+    z-index: 100;
+}
+.search-container {
+    display: flex;
+    gap: 4px;
+    z-index: 100;
+}
+.search-input {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    max-width: 200px;
+}
+.search-input:focus {
+    outline-style: none;
+    border: 2px solid #003367;
+}
+.search-button {
+    margin: 10px 0;
+    background-color: #064789;
+}
+.highlight {
+    background-color: #a4d2ff;
+    font-weight: bold;
+}
+  .highlight-row {
+    background-color: #a4d2ff;
 }
 .services-prices {
     max-height: 500px;
@@ -118,7 +156,8 @@ p {
     width: 100%;
     background-color: white;
     border: 0.03rem solid rgba(50, 48, 48, 0.253);
-    border-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .services-prices tbody {
@@ -138,7 +177,7 @@ p {
     overflow: hidden;
 }
 .services-prices::-webkit-scrollbar {
-    width: 6px;
+    width: 3px;
 }
 
 .services-prices::-webkit-scrollbar-track {
@@ -168,6 +207,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
     height: 100%;
 }
 .table-container {
@@ -189,6 +229,7 @@ p {
     width: 50%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    z-index: 100;
 }
   
 .pricing-table th,
@@ -2161,10 +2202,13 @@ body {
         font-size: 1rem;
     }
     .category-heading {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
     .item-price {
         font-size: 0.8rem;
+    }
+    .price-column {
+        width: 120px;
     }
 }
 
